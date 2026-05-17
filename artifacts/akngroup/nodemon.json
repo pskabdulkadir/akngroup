@@ -1,0 +1,18 @@
+{
+    "watch": [
+        "server",
+        "shared"
+    ],
+    "ext": "ts,js,json",
+    "ignore": [
+        "client/*",
+        "dist/*",
+        "node_modules",
+        "data/*",
+        "database.json",
+        "*.log",
+        "temp/*",
+        ".env"
+    ],
+    "exec": "npx tsx server/node-build.ts"
+}
